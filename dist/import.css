@@ -747,11 +747,11 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
 .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32,
 .modeUnreadImportant__2ea32 .actionIcon_c69b6d {
-  color: --SL-accentColUnread !important;
+  color: --unread_default !important;
 }
 
 .unreadImportant__2ea32 {
-  background: var(--text-brand);
+  background: var(--unread_default);
 }
 
 .modeSelected__2ea32 .link__2ea32 {
@@ -1098,7 +1098,8 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --text-brand: var(--SL-accentCol);
   --blurple-50: var(--SL-accentCol);
   --primary-400: var(--SL-accentCol);
-  --spine-default: var(--SL-accentCol);
+  --spine-default: var(--SL-accentCoLDark);
+  --unread-default: var(--SL-accentColLight)
   --border-normal: var(--SL-accentCol);
   --guild-boosting-pink: var(--SL-accentCol);
   --input-border-active: var(--SL-accentCol);
