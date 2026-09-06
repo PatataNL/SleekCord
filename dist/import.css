@@ -747,7 +747,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
 .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32,
 .modeUnreadImportant__2ea32 .actionIcon_c69b6d {
-  color: color-mix(in oklab, var(--text-brand), white) !important;
+  color: --SL-accentColUnread !important;
 }
 
 .unreadImportant__2ea32 {
