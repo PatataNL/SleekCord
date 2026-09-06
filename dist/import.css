@@ -112,6 +112,10 @@ body {
   background: color-mix(in oklab, var(--background-dark-base) 30%, transparent);
 }
 
+.channelMention.wrapper_f61d60.interactive {
+  background: var(--blurple-1);
+}
+
 .sidebarList__5e434 {
   backdrop-filter: none;
 }
@@ -747,7 +751,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
 .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32,
 .modeUnreadImportant__2ea32 .actionIcon_c69b6d {
-  color: --unread_default !important;
+  color: var(--unread_default) !important;
 }
 
 .unreadImportant__2ea32 {
