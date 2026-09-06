@@ -1098,8 +1098,8 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --text-brand: var(--SL-accentCol);
   --blurple-50: var(--SL-accentCol);
   --primary-400: var(--SL-accentCol);
-  --spine-default: var(--SL-accentCoLDark);
-  --unread-default: var(--SL-accentColLight)
+  --spine-default: var(--SL-accentColDark);
+  --unread-default: var(--SL-accentColLight);
   --border-normal: var(--SL-accentCol);
   --guild-boosting-pink: var(--SL-accentCol);
   --input-border-active: var(--SL-accentCol);
